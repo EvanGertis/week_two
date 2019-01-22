@@ -98,6 +98,9 @@ textarea {
    ========================================================================== */
 
 
+
+/* NAVBAR STYLES BEGIN */
+
 .nav-bar {
     height: 10vh;
     display: inline-block;
@@ -105,9 +108,33 @@ textarea {
     border: #b3d4fc solid;
     border-radius: 5px; 
     width: 100%;
-    opacity: 0.5;
-    position: absolute;
+    opacity: 0.9;
+    position: fixed;
     top: 0;
+    
+}
+
+.footer-bar {
+    height: 10vh;
+    display: inline-block;
+    background: #999;
+    border: #b3d4fc solid;
+    border-radius: 5px; 
+    width: 100%;
+    opacity: 0.9;
+    position: fixed;
+    bottom: 0;
+    
+}
+
+.footer-item{ 
+    float: left; 
+    margin-left: 15vw;
+    border: #b3d4fc solid;
+    border-radius: 5px;
+    list-style-type: none;
+    background: #b3d4fc;
+    font-size: 18px; 
 }
 
 .nav-item{  
@@ -133,12 +160,32 @@ textarea {
     float: right;
 }
 
+
+/* NAVBAR STYLES END */
+
+/* MAIN STYLE BEGIN */
+.content {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.about {
+    float: left;
+}
+
 .text {
     color: black;
     font-family: 'Courier New', Courier, monospace;
 }
 
+.profile-image{
+    height: 400px;
+    width: 300px;
+    border: #b3d4fc solid;
+    border-radius: 5px; 
+}
 
+/* MAIN STYLES END */
 
 
 
