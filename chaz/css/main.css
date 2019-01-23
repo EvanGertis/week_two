@@ -97,18 +97,26 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* 90's font */
+
+@font-face{
+    font-family: '90s font';
+    src: url('../JurassicPark.ttf') format('truetype');
+}
+
+/*  */
+
 
 
 /* NAVBAR STYLES BEGIN */
 
 .nav-bar {
     height: 10vh;
+    background: url(https://us.123rf.com/450wm/malven/malven1609/malven160900047/65296303-woven-textures-of-new-fabric-or-cotton-material-of-contrast-gray-color-for-a-background-or-for-wallp.jpg?ver=6);
     display: inline-block;
-    background: #999;
-    border: #b3d4fc solid;
+    border: #010101 solid;
     border-radius: 5px; 
     width: 100%;
-    opacity: 0.9;
     position: fixed;
     top: 0;
     
@@ -117,33 +125,46 @@ textarea {
 .footer-bar {
     height: 10vh;
     display: inline-block;
-    background: #999;
-    border: #b3d4fc solid;
+    background: url(https://us.123rf.com/450wm/malven/malven1609/malven160900047/65296303-woven-textures-of-new-fabric-or-cotton-material-of-contrast-gray-color-for-a-background-or-for-wallp.jpg?ver=6);
+    border: #010101 solid;
     border-radius: 5px; 
     width: 100%;
-    opacity: 0.9;
     position: fixed;
     bottom: 0;
     
 }
 
-.footer-item{ 
+.footer-item{
+    background: url(https://www.textures.com/system/gallery/photos/Fabric/Leather/120863/Leather0112_2_240.jpg);
     float: left; 
     margin-left: 15vw;
-    border: #b3d4fc solid;
+    border: #010101 solid;
     border-radius: 5px;
     list-style-type: none;
-    background: #b3d4fc;
-    font-size: 18px; 
+    font-size: 18px;
+    box-shadow: black 5px 5px 5px; 
 }
 
-.nav-item{  
+.footer-item:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.nav-item{
+    background: url(https://www.textures.com/system/gallery/photos/Fabric/Leather/120863/Leather0112_2_240.jpg);  
     margin-left: 10vw;
-    border: #b3d4fc solid;
+    border: black solid;
     border-radius: 5px;
     list-style-type: none;
-    background: #b3d4fc;
-    font-size: 18px; 
+    font-size: 18px;
+    box-shadow: black 5px 5px 5px; 
+}
+
+.nav-item:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .nav-item:first-child{
@@ -163,26 +184,130 @@ textarea {
 
 /* NAVBAR STYLES END */
 
+
+
 /* MAIN STYLE BEGIN */
+
+body {
+    background: url(https://c.pxhere.com/photos/d7/dc/white_texture_paint_wallpaper_surface_blank_background_the_authentic-1371058.jpg!d);
+}
+
 .content {
     padding-top: 20vh;
     padding-bottom: 10vh;
 }
 
-.about {
+.text {
+    color: black;
+    font-family: serif;
+}
+
+p {
+    border: #010101 solid;
+    border-radius: 5px;
+    list-style-type: none;
+    font-size: 18px;
+    box-shadow: black 5px 5px 5px; 
+}
+
+th {
+    border: #010101 solid;
+    border-radius: 5px;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+li.text {
+    border: #010101 solid;
+    border-radius: 5px;
+    list-style-type: none;
+    font-size: 18px;
     float: left;
 }
 
-.text {
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
+.about li {
+    float: left;
+    list-style: none;
+}
+
+.about ul {
+}
+
+a {
+    font-size: 30px;
+    font-family: serif;
+}
+
+.title {
+    background: url(https://www.textures.com/system/gallery/photos/Fabric/Leather/120863/Leather0112_2_240.jpg); 
+    display: inline-block;
+    font-size: 30px;
+    font-family: serif;
+    border: #010101 solid;
+    border-radius: 5px;
+    box-shadow: black 5px 5px 5px;
+    text-align: center;
+    margin: 0 10% 2px 10%;
 }
 
 .profile-image{
-    height: 400px;
+    height: 300px;
     width: 300px;
-    border: #b3d4fc solid;
-    border-radius: 5px; 
+    border: black solid;
+    border-radius: 5px;
+    box-shadow: black 5px 5px 5px; 
+}
+
+.image {
+    width: 100%;
+    display: inline-block;
+}
+
+.about {
+    border: #010101 solid;
+    border-radius: 5px;
+    box-shadow: black 5px 5px 5px;
+    margin: 0 10% 2px 10%; 
+}
+
+.skills {
+    display: inline-block;
+    border: #010101 solid;
+    border-radius: 5px;
+    box-shadow: black 5px 5px 5px;
+    margin: 0 10% 2px 10%;
+}
+
+.hobbies {
+    display: inline-block;
+    border: #010101 solid;
+    border-radius: 5px;
+    box-shadow: black 5px 5px 5px;
+    margin: 0 10% 2px 10%;
+    
+
+}
+
+.goals {
+    display: inline-block;
+    background: url(https://us.123rf.com/450wm/malven/malven1609/malven160900047/65296303-woven-textures-of-new-fabric-or-cotton-material-of-contrast-gray-color-for-a-background-or-for-wallp.jpg?ver=6);
+    border: #010101 solid;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: black 5px 5px 5px; 
+    margin: 0 10% 2px 10%;
+}
+
+.card {
+    display: inline-block;
+    background: url(https://us.123rf.com/450wm/malven/malven1609/malven160900047/65296303-woven-textures-of-new-fabric-or-cotton-material-of-contrast-gray-color-for-a-background-or-for-wallp.jpg?ver=6);
+    border: #010101 solid;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin: 0 10% 15px 10%;
+    box-shadow: black 5px 5px 5px; 
 }
 
 /* MAIN STYLES END */
