@@ -7,4 +7,4 @@ This repository contains the work for my second week of the theClubhou.se Bootca
 
 #Progress 
 This is my current progress. I am trying to make the bio page appear more material than microsoft power pointy style. So far it has been really hard to try to get a theme. It kind of looks like a microsoft word document.
-![alt text](chaz/Chaz_biography.png)
+![alt text](chaz/microsoftword.png)
