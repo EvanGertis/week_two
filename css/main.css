@@ -205,18 +205,17 @@ body {
     padding-bottom: 10vh;
 }
 
-.text {
-    color: white;
-    font-family: 'Poppins', sans-serif;
-}
 
 p {
+    font-family: 'Poppins', sans-serif;
     border: #010101 1.1px solid;
     border-radius: 5px;
     list-style-type: none;
     font-size: 18px;
     box-shadow: black 5px 5px 20px;
-    margin: 5% 20% 5% 20%; 
+    margin: 5% 20% 5% 20%;
+    padding: 10px 10px 10px 10px;
+    letter-spacing: 2px; 
 }
 
 th {
@@ -234,12 +233,13 @@ li {
 
 
 a {
+    color: white;
+    font-family: 'Poppins', sans-serif;
     font-size: 30px;
     letter-spacing: 2px;
-    text-shadow: gray 5px 5px 50px;
+    text-shadow: black 5px 5px 50px;
     padding: 5px 5px 5px 5px;
     text-decoration: none;
-    font-family: serif;
 }
 
 .title {
