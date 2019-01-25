@@ -11,7 +11,7 @@ This is my current progress. I am trying to make the bio page appear more materi
 
 # Final Results
 I refactored all of my main content. I came up with a scheme that uses lists of components. I used a card component, list-item component, and title compoent. Now the site is very responsive. Elements fall ontop of one another when the viewport size changes. 
-![https://evangertis.github.io/week_two/]
+[Live demo](https://evangertis.github.io/week_two/)
 
 ![alt text](final_version.PNG)
 
