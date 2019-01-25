@@ -55,12 +55,7 @@ hr {
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
+audio, canvas, iframe, img, svg, video {
     vertical-align: middle;
 }
 
@@ -99,14 +94,12 @@ textarea {
 
 /* 90's font */
 
-@font-face{
+@font-face {
     font-family: '90s font';
     src: url('../JurassicPark.ttf') format('truetype');
 }
 
 /*  */
-
-
 
 /* NAVBAR STYLES BEGIN */
 
@@ -118,24 +111,22 @@ textarea {
     border-right: black 1px solid;
     display: inline-block;
     box-shadow: gray 5px 5px 100px;
-    border-radius: 10px; 
+    border-radius: 10px;
     width: 100%;
     position: fixed;
     top: 0;
-    
 }
 
-
-.nav-item{
+.nav-item {
     background: linear-gradient(to top, #1e5799 0%, #7db9e8 100%);
-    float: left; 
+    float: left;
     margin-left: 5vw;
     border: black 1px solid;
     border-radius: 20px;
     list-style-type: none;
     font-size: 13px;
     box-shadow: black 5px 15px 50px;
-    padding: 5px; 
+    padding: 5px;
 }
 
 .nav-item:hover {
@@ -144,24 +135,21 @@ textarea {
     transform: scale(1.2);
 }
 
-.nav-item:first-child{
+.nav-item:first-child {
     float: left;
-    margin-left: 1vw; 
+    margin-left: 1vw;
 }
 
-.nav-item:not(:first-child){
+.nav-item:not(:first-child) {
     float: right;
     margin-right: 1vw;
 }
 
-.nav-bar ul:not(:first-child){
+.nav-bar ul:not(:first-child) {
     float: right;
 }
 
-
 /* NAVBAR STYLES END */
-
-
 
 /* MAIN STYLE BEGIN */
 
@@ -174,7 +162,6 @@ body {
     padding-bottom: 10vh;
 }
 
-
 p {
     font-family: 'Poppins', sans-serif;
     border: #010101 1.1px solid;
@@ -185,7 +172,7 @@ p {
     box-shadow: black 5px 5px 20px;
     margin: 5% 10% 5% 4%;
     padding: 10px 10px 10px 10px;
-    letter-spacing: 2px; 
+    letter-spacing: 2px;
 }
 
 .list-item {
@@ -198,14 +185,12 @@ p {
     box-shadow: black 5px 5px 20px;
     margin: 5% 0% 5% 0%;
     padding: 10px 10px 10px 10px;
-    letter-spacing: 2px; 
+    letter-spacing: 2px;
 }
-
 
 li {
     list-style-type: none;
 }
-
 
 a {
     color: white;
@@ -218,7 +203,7 @@ a {
 }
 
 .title {
-    background: white; 
+    background: white;
     display: inline-block;
     border: #010101 1.1px solid;
     border-radius: 100px;
@@ -229,7 +214,7 @@ a {
 }
 
 h3 {
-    color:rgb(168, 158, 158);
+    color: rgb(168, 158, 158);
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
     letter-spacing: 5px;
@@ -237,14 +222,12 @@ h3 {
     font-weight: unset;
 }
 
-
-
 .image {
     height: 300px;
     width: 300px;
     border: black 1.1px solid;
     border-radius: 100px;
-    box-shadow: black 5px 5px 5px; 
+    box-shadow: black 5px 5px 5px;
     display: inline-block;
 }
 
@@ -257,7 +240,7 @@ h3 {
     margin-bottom: 5px;
     margin: 3px 10% 3px 0%;
     box-shadow: black 5px 5px 10px;
-    padding: 10px 10px 10px 10px; 
+    padding: 10px 10px 10px 10px;
 }
 
 .content-list {
@@ -265,40 +248,32 @@ h3 {
     float: left;
 }
 
-div .ball{
+div .ball {
     display: flex;
     justify-content: center;
-  }
-  
-  .ball {
+}
+
+.ball {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Tennis_ball_3.svg/2000px-Tennis_ball_3.svg.png);
     background-size: cover;
-  
     animation: bounce 1s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-  }
-  
-  @keyframes bounce {
-    from { transform: translate3d(0, 0, 0);     }
-    to   { transform: translate3d(20px, 0, 0); }
-  }
+}
+
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(20px, 0, 0);
+    }
+}
 
 /* MAIN STYLES END */
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
@@ -330,7 +305,8 @@ div .ball{
     padding: 0;
     position: absolute;
     width: 1px;
-    white-space: nowrap; /* 1 */
+    white-space: nowrap;
+    /* 1 */
 }
 
 /*
@@ -339,8 +315,7 @@ div .ball{
  * https://www.drupal.org/node/897638
  */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
     clip: auto;
     height: auto;
     margin: 0;
@@ -370,10 +345,11 @@ div .ball{
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+.clearfix:before, .clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
 }
 
 .clearfix:after {
@@ -390,10 +366,7 @@ div .ball{
     /* Style adjustments for viewports that meet the condition */
 }
 
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
 
@@ -404,71 +377,52 @@ div .ball{
    ========================================================================== */
 
 @media print {
-    *,
-    *:before,
-    *:after {
+    *, *:before, *:after {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster */
+        color: #000 !important;
+        /* Black prints faster */
         -webkit-box-shadow: none !important;
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
-    a,
-    a:visited {
+    a, a:visited {
         text-decoration: underline;
     }
-
     a[href]:after {
         content: " (" attr(href) ")";
     }
-
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
-
     /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
+    a[href^="#"]:after, a[href^="javascript:"]:after {
         content: "";
     }
-
     pre {
         white-space: pre-wrap !important;
     }
-    pre,
-    blockquote {
+    pre, blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
-
     /*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-
     thead {
         display: table-header-group;
     }
-
-    tr,
-    img {
+    tr, img {
         page-break-inside: avoid;
     }
-
-    p,
-    h2,
-    h3 {
+    p, h2, h3 {
         orphans: 3;
         widows: 3;
     }
-
-    h2,
-    h3 {
+    h2, h3 {
         page-break-after: avoid;
     }
 }
