@@ -112,10 +112,13 @@ textarea {
 
 .nav-bar {
     height: 10vh;
-    background: url(https://us.123rf.com/450wm/malven/malven1609/malven160900047/65296303-woven-textures-of-new-fabric-or-cotton-material-of-contrast-gray-color-for-a-background-or-for-wallp.jpg?ver=6);
+    background: white;
+    border-bottom: black 1px solid;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
     display: inline-block;
-    border: #010101 solid;
-    border-radius: 5px; 
+    box-shadow: gray 5px 5px 100px;
+    border-radius: 10px; 
     width: 100%;
     position: fixed;
     top: 0;
@@ -123,11 +126,13 @@ textarea {
 }
 
 .footer-bar {
+    border-top: black 1px solid;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
     height: 10vh;
     display: inline-block;
-    background: url(https://us.123rf.com/450wm/malven/malven1609/malven160900047/65296303-woven-textures-of-new-fabric-or-cotton-material-of-contrast-gray-color-for-a-background-or-for-wallp.jpg?ver=6);
-    border: #010101 solid;
-    border-radius: 5px; 
+    background: white;
+    border-radius: 20px; 
     width: 100%;
     position: fixed;
     bottom: 0;
@@ -135,14 +140,15 @@ textarea {
 }
 
 .footer-item{
-    background: url(https://www.textures.com/system/gallery/photos/Fabric/Leather/120863/Leather0112_2_240.jpg);
+    background: linear-gradient(to top, #1e5799 0%, #7db9e8 100%);
     float: left; 
     margin-left: 15vw;
-    border: #010101 solid;
-    border-radius: 5px;
+    border: black 1px solid;
+    border-radius: 20px;
     list-style-type: none;
     font-size: 18px;
-    box-shadow: black 5px 5px 5px; 
+    box-shadow: black 5px 15px 50px;
+    padding: 5px; 
 }
 
 .footer-item:hover{
@@ -152,13 +158,15 @@ textarea {
 }
 
 .nav-item{
-    background: url(https://www.textures.com/system/gallery/photos/Fabric/Leather/120863/Leather0112_2_240.jpg);  
-    margin-left: 10vw;
-    border: black solid;
-    border-radius: 5px;
+    background: linear-gradient(to top, #1e5799 0%, #7db9e8 100%);
+    float: left; 
+    margin-left: 15vw;
+    border: black 1px solid;
+    border-radius: 20px;
     list-style-type: none;
     font-size: 18px;
-    box-shadow: black 5px 5px 5px; 
+    box-shadow: black 5px 15px 50px;
+    padding: 5px; 
 }
 
 .nav-item:hover {
@@ -189,7 +197,7 @@ textarea {
 /* MAIN STYLE BEGIN */
 
 body {
-    background: url(https://c.pxhere.com/photos/d7/dc/white_texture_paint_wallpaper_surface_blank_background_the_authentic-1371058.jpg!d);
+    background: white;
 }
 
 .content {
@@ -198,116 +206,82 @@ body {
 }
 
 .text {
-    color: black;
-    font-family: serif;
+    color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 p {
-    border: #010101 solid;
+    border: #010101 1.1px solid;
     border-radius: 5px;
     list-style-type: none;
     font-size: 18px;
-    box-shadow: black 5px 5px 5px; 
+    box-shadow: black 5px 5px 20px;
+    margin: 5% 20% 5% 20%; 
 }
 
 th {
-    border: #010101 solid;
-    border-radius: 5px;
+    border: #010101 1.1px solid;
+    border-radius: 10px;
     list-style-type: none;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
     font-size: 18px;
 }
 
-li.text {
-    border: #010101 solid;
-    border-radius: 5px;
+li {
     list-style-type: none;
-    font-size: 18px;
-    float: left;
 }
 
-.about li {
-    float: left;
-    list-style: none;
-}
-
-.about ul {
-}
 
 a {
     font-size: 30px;
+    letter-spacing: 2px;
+    text-shadow: gray 5px 5px 50px;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
     font-family: serif;
 }
 
 .title {
-    background: url(https://www.textures.com/system/gallery/photos/Fabric/Leather/120863/Leather0112_2_240.jpg); 
+    background: white; 
     display: inline-block;
-    font-size: 30px;
-    font-family: serif;
-    border: #010101 solid;
-    border-radius: 5px;
-    box-shadow: black 5px 5px 5px;
+    border: #010101 1.1px solid;
+    border-radius: 100px;
+    box-shadow: black 5px 5px 50px;
     text-align: center;
-    margin: 0 10% 2px 10%;
+    margin: 5% 20% 0 20%;
+    padding: 10px;
 }
 
-.profile-image{
-    height: 300px;
-    width: 300px;
-    border: black solid;
-    border-radius: 5px;
-    box-shadow: black 5px 5px 5px; 
+h3 {
+    color:black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-shadow: black 1px 1px 2px;
 }
+
+
 
 .image {
-    width: 100%;
-    display: inline-block;
-}
-
-.about {
-    border: #010101 solid;
-    border-radius: 5px;
-    box-shadow: black 5px 5px 5px;
-    margin: 0 10% 2px 10%; 
-}
-
-.skills {
-    display: inline-block;
-    border: #010101 solid;
-    border-radius: 5px;
-    box-shadow: black 5px 5px 5px;
-    margin: 0 10% 2px 10%;
-}
-
-.hobbies {
-    display: inline-block;
-    border: #010101 solid;
-    border-radius: 5px;
-    box-shadow: black 5px 5px 5px;
-    margin: 0 10% 2px 10%;
-    
-
-}
-
-.goals {
-    display: inline-block;
-    background: url(https://us.123rf.com/450wm/malven/malven1609/malven160900047/65296303-woven-textures-of-new-fabric-or-cotton-material-of-contrast-gray-color-for-a-background-or-for-wallp.jpg?ver=6);
-    border: #010101 solid;
-    border-radius: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    height: 300px;
+    width: 300px;
+    border: black 1.1px solid;
+    border-radius: 100px;
     box-shadow: black 5px 5px 5px; 
-    margin: 0 10% 2px 10%;
+    display: inline-block;
 }
 
 .card {
     display: inline-block;
-    background: url(https://us.123rf.com/450wm/malven/malven1609/malven160900047/65296303-woven-textures-of-new-fabric-or-cotton-material-of-contrast-gray-color-for-a-background-or-for-wallp.jpg?ver=6);
-    border: #010101 solid;
-    border-radius: 5px;
+    background: white;
+    border: #010101 1.1px solid;
+    border-radius: 20px;
     margin-top: 5px;
     margin-bottom: 5px;
-    margin: 0 10% 15px 10%;
-    box-shadow: black 5px 5px 5px; 
+    margin: 3px 10% 3px 10%;
+    box-shadow: black 5px 5px 10px;
+    padding: 5px 5px 5px 5px; 
 }
 
 /* MAIN STYLES END */
